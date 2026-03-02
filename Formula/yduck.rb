@@ -1,15 +1,15 @@
 class Yduck < Formula
   desc "Mac dev environment & AI coding tools setup CLI"
   homepage "https://github.com/tc6-01/YangDuck"
-  version "0.1.11"
+  version "0.1.14"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://gh-proxy.com/https://github.com/tc6-01/YangDuck/releases/download/v0.1.11/yduck-darwin-arm64"
-      sha256 "5693270e58541471c820617457009a2063e037cbe432cd8169f681f149c29673"
+      url "https://gh-proxy.com/https://github.com/tc6-01/YangDuck/releases/download/v0.1.14/yduck-darwin-arm64"
+      sha256 "1b1fc24aa5d0e400f97f4097b948541469b62bfbbf96447809f909448df628ad"
     else
-      url "https://gh-proxy.com/https://github.com/tc6-01/YangDuck/releases/download/v0.1.11/yduck-darwin-amd64"
-      sha256 "a10c0ffad81e5e245ac7fea1c01ab6841c977e408f61f27838de37ce10fb151b"
+      url "https://gh-proxy.com/https://github.com/tc6-01/YangDuck/releases/download/v0.1.14/yduck-darwin-amd64"
+      sha256 "5c7c6d6b8659e96501bdedfa441b56c869e30b6321c991a53ae5cb4db142ad6b"
     end
   end
 
